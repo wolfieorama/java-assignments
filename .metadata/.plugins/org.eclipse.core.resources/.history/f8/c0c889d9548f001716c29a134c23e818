@@ -1,0 +1,58 @@
+public class PoliceOfficer
+{
+	private String name, badgeNumber;
+	private double additionalMinutes;
+	private ParkingTicket ticket;
+	private ParkingMeter meter;
+	private ParkedCar car;
+	
+	public PoliceOfficer(String name, String badgeNumber)
+	{
+		setName(name);
+		setBadgeNumber(badgeNumber);
+	}
+
+	public String getBadgeNumber()
+	{
+		return badgeNumber;
+	}
+
+	public void setBadgeNumber(String policeBadgeNumber)
+	{
+		badgeNumber = policeBadgeNumber;
+	}
+
+	public String getName()
+	{
+		return name;
+	}
+
+	public void setName(String policeName)
+	{
+		name = policeName;
+	}
+	
+	public double getAdditionalMinutes(ParkingMeter meter, ParkedCar car)
+	{
+		additionalMinutes = car.getMinutesParked() - meter.getMinutesPurchased();
+		return additionalMinutes;
+	}
+	
+	public void examineTicket(ParkingMeter meter, ParkedCar car)
+	{
+		if (car.getMinutesParked() > meter.getMinutesPurchased())
+		{
+			ticket = new ParkingTicket(car, this);
+			ticket.calculateFine(getAdditionalMinutes(meter, car));
+		}
+		else{
+			System.out.println("Leggaly parked car");
+		}
+	}
+	
+	public String toString()
+	{
+		return "the policeman details are :" + " " + name + " and " + " badge Number: " 
+	+ badgeNumber + " minutes " + additionalMinutes; 
+	}
+}

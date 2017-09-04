@@ -1,0 +1,17 @@
+import java.awt.Color;
+
+public class Test3
+{
+	ParkedCar car = new ParkedCar("Ford", "RXX 900T", Color.blue, 21);
+	ParkingMeter pm = new ParkingMeter();
+	PoliceOfficer police = new PoliceOfficer("Nixon Mike", "95MX");
+	ParkingTicket pt = new ParkingTicket(car, police);
+	
+	public String toString()
+	{
+		return "this is Car: " + car + "\n" +
+				"this is Parking Meter: " + pm + "\n" +
+				"this is Police: " + police + "\n" +
+				"the cost of fine is: " + pt;
+	}
+}

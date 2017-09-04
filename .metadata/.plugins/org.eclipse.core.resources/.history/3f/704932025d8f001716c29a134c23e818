@@ -1,0 +1,9 @@
+class meatChoiceException extends Exception
+{
+	public meatChoiceException() {}
+
+	public meatChoiceException(String message)
+	{
+		super(message);
+	}
+}

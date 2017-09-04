@@ -1,0 +1,19 @@
+//The ParkedCar is over the parking time purchased.
+public class Test2
+{
+	private ParkedCar car;
+	private ParkingMeter pm;
+	private PoliceOfficer police;
+	
+	public Test2(){
+		car = new ParkedCar("BMW", "RAD 666T", "Yellow", 60);
+		pm = new ParkingMeter(10);
+		police = new PoliceOfficer("Mike", "J78O");
+	}
+	
+	
+	public void printTicket()
+	{
+		police.examineTicket(pm, car);
+	}
+}

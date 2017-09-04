@@ -1,0 +1,28 @@
+
+public class Pizza
+{
+	private int numSlice;
+	private meatChoices meaty;
+	private vegChoices veggy;
+
+	public enum meatChoices
+	{
+		BEEF, MUTTON, PORK
+	}
+	
+	public enum vegChoices
+	{
+		CUCUMBER, LETTUCE, TOMATO, POTATO, CHILIAPPLE
+	}
+	
+	public Pizza()
+	{
+		//assign slices
+		//randomly assign meat choice or veg choice
+	}
+	
+	public void setNumSlice(int slices)
+	{
+		slices = numSlice;
+	}
+}

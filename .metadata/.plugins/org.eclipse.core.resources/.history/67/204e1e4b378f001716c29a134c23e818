@@ -1,0 +1,11 @@
+
+public class TestParkingTicket
+{
+
+	public static void main(String[] args)
+	{
+		WithinParkingTime w = new WithinParkingTime();
+		System.out.println(w);
+	}
+
+}

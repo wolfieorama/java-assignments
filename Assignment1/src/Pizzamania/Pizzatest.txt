@@ -1,0 +1,19 @@
+The Random Pizza you got is: 
+the slices are: 15
+the Toppings are: PORK and CHILIAPPLE
+Kindly select Pizza number 1
+beef
+The Pizza you got is: 
+the slices are: 15
+the Toppings are: beef
+Kindly select Pizza number 2
+lettuce
+The Pizza you got is: 
+the slices are: 15
+the Toppings are: lettuce
+Kindly select Pizza number 3
+pork
+The Pizza you got is: 
+the slices are: 15
+the Toppings are: pork
+

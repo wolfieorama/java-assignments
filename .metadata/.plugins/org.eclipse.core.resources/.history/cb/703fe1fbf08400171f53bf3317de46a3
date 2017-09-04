@@ -1,0 +1,13 @@
+// This program prints a 
+// @author John W Munyi
+import java.util.Scanner;
+public class Triangle
+{
+
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

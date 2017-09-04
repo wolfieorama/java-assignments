@@ -1,0 +1,30 @@
+
+public class ParkingTicket
+{
+	private double additionalHours;
+	private ParkedCar car;
+	private PoliceOfficer police;
+	private ParkingMeter meter;
+	double finalFine;
+	
+	public ParkingTicket(ParkedCar car, PoliceOfficer police)
+	{
+		this.police = police;
+		this.car = car;
+		finalFine = calculateFine(car, meter);
+	}
+	
+	public double calculateFine(ParkedCar car, ParkingMeter meter)
+	{
+		// get the difference in time extended from the police and calculate fine
+		// additionalHours = meter.minutesPurchased - car.minutesParked;
+		if (police.examineTicket(car, meter) == true)
+			finalFine =  25 + (additionalHours * 10);
+			return finalFine;
+	}
+
+	public String toString()
+	{
+		return "the fine total is: " + finalFine;
+	}
+}

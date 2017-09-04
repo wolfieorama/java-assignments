@@ -1,0 +1,25 @@
+
+public class ParkingTicket
+{
+	private double finalFine;
+	private PoliceOfficer police;
+	private ParkingMeter meter;
+	private ParkedCar car;
+	
+	public ParkingTicket(ParkedCar car, PoliceOfficer police)
+	{
+		
+	}
+	
+	public double calculateFine(ParkingTicket ticket)
+	{
+		finalFine police.getAdditionalMinutes(meter, car);
+		return finalFine;
+		
+	}
+
+	public String toString()
+	{
+		return "the fine total is: " + finalFine;
+	}
+}

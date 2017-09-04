@@ -1,0 +1,47 @@
+No Fine well within Time :)
+===========================================================
+The Car details are: car make: BMW
+licenseNumber: RAD 666T
+Color: Yellow
+Minutes Parked: 60.0
+The Total Fine is: 33.333333333333336
+The Policeman incharge is: Mike and  badge Number: J78O
+===========================================================
+The Car details are: car make: BMW
+licenseNumber: RAD 345T
+Color: blue
+Minutes Parked: 10.001
+The Total Fine is: 25.000166666666665
+The Policeman incharge is: Johnson and  badge Number: JHPO
+===========================================================
+The Car details are: car make: BMW
+licenseNumber: RAD 345T
+Color: blue
+Minutes Parked: 10.1
+The Total Fine is: 25.016666666666666
+The Policeman incharge is: Johnson and  badge Number: JHPO
+===========================================================
+No Fine well within Time :)
+===========================================================
+The Car details are: car make: BMW
+licenseNumber: RAD 666T
+Color: Yellow
+Minutes Parked: 69.0
+The Total Fine is: 34.83333333333333
+The Policeman incharge is: Mike and  badge Number: J78O
+===========================================================
+The Car details are: car make: BMW
+licenseNumber: RAD 345T
+Color: blue
+Minutes Parked: 70.5
+The Total Fine is: 35.08333333333333
+The Policeman incharge is: Johnson and  badge Number: JHPO
+===========================================================
+The Car details are: car make: BMW
+licenseNumber: RAD 666T
+Color: Yellow
+Minutes Parked: 70.0
+The Total Fine is: 35.0
+The Policeman incharge is: Mike and  badge Number: J78O
+===========================================================
+

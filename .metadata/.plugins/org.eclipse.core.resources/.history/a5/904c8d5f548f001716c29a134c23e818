@@ -1,0 +1,11 @@
+
+public class TestParkingTicket
+{
+
+	public static void main(String[] args)
+	{
+		Test1 car1 = new Test1();
+		car1.test();
+	}
+
+}

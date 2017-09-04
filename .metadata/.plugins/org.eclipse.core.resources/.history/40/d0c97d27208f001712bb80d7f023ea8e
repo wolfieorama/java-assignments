@@ -1,0 +1,25 @@
+
+public class ParkingMeter
+{
+	double minutesPurchased;
+	
+	public ParkingMeter(double minutespurchased)
+	{
+		setMinutesPurchased(minutesPurchased);
+	}
+	
+	public void setMinutesPurchased(double minutesPurchased)
+	{
+		this.minutesPurchased = minutesPurchased;
+	}
+	
+	double getMinutesPurchased()
+	{
+		return minutesPurchased;
+	}
+	
+	public String toString()
+	{
+		return "the Minutes purchased are: " + minutesPurchased;
+	}
+}

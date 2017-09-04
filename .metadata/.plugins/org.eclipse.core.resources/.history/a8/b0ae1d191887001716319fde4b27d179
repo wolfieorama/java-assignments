@@ -1,0 +1,24 @@
+import java.awt.Color;
+import java.awt.Point;
+
+// This program draws a BullsEye 
+// @author John W Munyi
+
+public class BullsEye
+{	
+	private int number_of_cirles, step;
+			Point center;
+			Color color1, color2;
+			boolean isOutLine;
+			
+	public BullsEye()
+	{
+		
+	}
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+
+public class TestParkingTicket
+{
+
+	public static void main(String[] args)
+	{
+		Test1 car1 = new Test1();
+		car1.printTicket();
+		System.out.println("===========================================================");
+		Test2 car2 = new Test2();
+		car2.printTicket();
+		System.out.println("===========================================================");
+		Test3 car3 = new Test3();
+		car3.printTicket();
+		System.out.println("===========================================================");
+	}
+	
+	
+
+}

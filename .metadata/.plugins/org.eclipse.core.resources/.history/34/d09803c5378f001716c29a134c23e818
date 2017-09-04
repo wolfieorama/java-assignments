@@ -1,0 +1,14 @@
+
+public class TestParkingTicket
+{
+
+	public static void main(String[] args)
+	{
+		Test1 w = new Test1();
+		System.out.println(w);
+		System.out.println("=============================");
+		Test1 w = new Test1();
+		System.out.println(w);
+	}
+
+}

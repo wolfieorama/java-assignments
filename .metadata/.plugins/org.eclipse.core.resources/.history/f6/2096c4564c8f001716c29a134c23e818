@@ -1,0 +1,18 @@
+
+public class ParkingTicket
+{
+	private double finalFine;
+	private PoliceOfficer police;
+	private ParkingMeter meter;
+	private ParkedCar car;
+	
+	public ParkingTicket(ParkedCar car, PoliceOfficer police)
+	{
+		this.police = police;
+		this.car = car;
+	}
+	public String toString()
+	{
+		return "the fine total is: " + finalFine;
+	}
+}

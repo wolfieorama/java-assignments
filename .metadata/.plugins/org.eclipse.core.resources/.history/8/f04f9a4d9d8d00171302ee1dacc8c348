@@ -1,0 +1,49 @@
+import java.util.Random;
+
+// This program makes very yummy pizzas
+// @author John W Munyi
+
+public class Pizza
+{
+	private int numSlice;
+	private meatChoices meaty;
+	private vegChoices veggy;
+
+	public enum meatChoices
+	{
+		BEEF, MUTTON, PORK
+	}
+	
+	public enum vegChoices
+	{
+		CUCUMBER, LETTUCE, TOMATO, POTATO, CHILIAPPLE
+	}
+	
+	public Pizza()
+	{
+		setNumSlice();
+		getRandomTopping();
+		//randomly assign meat choice or veg choice
+	}
+	
+	public int getNumSlice()
+	{
+		return numSlice;
+	}
+	
+	public void setNumSlice()
+	{
+		numSlice = 15;
+	}
+	
+	public String getRandomTopping()
+	{
+		Random r = new Random();
+		return meatChoices.values()[r.nextInt(meatChoices.values().length)];
+	}
+	
+	public String toString()
+	{
+		return "the slices are: " + numSlice;
+	}
+}

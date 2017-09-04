@@ -1,0 +1,17 @@
+/** class Account with get and set methods and an instance variable
+ * @author John Munyi */
+
+public class Account
+{
+	private String name;
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+}

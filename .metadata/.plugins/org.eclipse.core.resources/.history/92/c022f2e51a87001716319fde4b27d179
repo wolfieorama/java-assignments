@@ -1,0 +1,51 @@
+import java.awt.Color;
+import java.awt.Point;
+
+// This program draws a BullsEye 
+// @author John W Munyi
+
+public class BullsEye
+{	
+	private int number_of_circles, step;
+			Point center;
+			Color color1, color2;
+			boolean isOutLine;
+			
+	public BullsEye(Point center, int number_of_circles, int step, Color color1, Color color2)
+	{
+		this.center = center;
+		this.setStep(step);
+		this.setNumber_of_circles(number_of_circles);
+	}
+	
+	public int getStep()
+	{
+		return step;
+	}
+
+	public void setStep(int step)
+	{
+		this.step = step;
+	}
+	
+	public int getNumber_of_circles()
+	{
+		return number_of_circles;
+	}
+
+	public void setNumber_of_circles(int number_of_circles)
+	{
+		this.number_of_circles = number_of_circles;
+	}
+	
+	pubic String toString()
+	{
+		return "the center is: " + center "\n" +
+				"the step size is: " + step
+	}
+
+	public static void main(String[] args)
+	{
+		
+	}
+}

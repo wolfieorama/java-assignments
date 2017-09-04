@@ -1,0 +1,23 @@
+// This program prints a 
+// @author John W Munyi
+import java.util.Scanner;
+public class Triangle
+{
+
+	public static void main(String[] args)
+	{
+		int num;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a Number: ");
+        num = input.nextInt();
+		printStars();
+
+	}
+	
+	public static void printStars(int numStars)
+	{
+		System.out.print("*");
+	}
+
+}

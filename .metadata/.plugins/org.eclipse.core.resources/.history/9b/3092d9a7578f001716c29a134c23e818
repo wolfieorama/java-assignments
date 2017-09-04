@@ -1,0 +1,22 @@
+
+public class ParkingTicket
+{
+	private double finalFine;
+	private PoliceOfficer police;
+	private ParkingMeter meter;
+	private ParkedCar car;
+	
+	public ParkingTicket(ParkedCar car, PoliceOfficer police)
+	{
+		this.police = police;
+		this.car = car;
+	}
+	
+	public void calculateFine(double fine)
+	{
+		System.out.println("The Car details are: " + car);
+		System.out.println("The Total Fine is: " + (25 + (fine * 10)));
+		System.out.println("The Policeman incharge is: " + police);
+		System.out.println("The minutes you had paid for: " + meter);
+	}
+}

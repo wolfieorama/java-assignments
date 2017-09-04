@@ -1,0 +1,22 @@
+// This program makes very yummy pizzas objects and makes you choose
+// @author John W Munyi
+import java.util.Scanner;
+public class PizzaTester
+{
+
+	public static void main(String[] args)
+	{
+		Pizza pizza1 = new Pizza();
+		System.out.println("The Random Pizza you got is: \n" + pizza1);
+		int orderNumber = Integer.parseInt(args[0]);
+		Scanner input = new Scanner(System.in);
+		String pizzaName;
+		for(int i = 1; i <= orderNumber; i++)
+		{
+			System.out.println("Kindly select Pizza number " + i);
+			pizzaName = input.next();
+			
+		}
+	}
+
+}
